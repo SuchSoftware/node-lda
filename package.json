@@ -1,0 +1,24 @@
+{
+  "name": "node-lda",
+  "version": "1.0.0",
+  "description": "A JS implementation of LDA",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node node_modules/.bin/tape test/**/*Tests.js | tap-spec"
+  },
+  "author": "Ethan Garofolo <ethan@suchsoftware.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.4.5",
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-plugin-syntax-object-rest-spread": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
+  }
+}
