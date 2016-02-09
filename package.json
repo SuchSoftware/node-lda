@@ -9,10 +9,13 @@
   "author": "Ethan Garofolo <ethan@suchsoftware.com>",
   "license": "MIT",
   "dependencies": {
+    "async": "^1.5.2",
     "babel-cli": "^6.4.5",
     "babel-core": "^6.4.5",
     "babel-plugin-transform-object-rest-spread": "^6.3.13",
-    "babel-preset-es2015": "^6.3.13"
+    "babel-preset-es2015": "^6.3.13",
+    "highland": "^2.6.0",
+    "porter-stemmer": "^0.9.1"
   },
   "devDependencies": {
     "babel-cli": "^6.4.5",
